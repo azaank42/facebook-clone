@@ -1,0 +1,163 @@
+/* Reset some default styles */
+body, figure, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set up basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background-color: #1877F2;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #ffffff;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+#hero-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#hero-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#hero-section form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-section input {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+#hero-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1877F2;
+    border: none;
+    cursor: pointer;
+}
+
+#hero-section a {
+    color: #1877F2;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+}
+
+/* Features Section */
+#features-section {
+    padding: 80px 0;
+}
+
+#features-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#features-section p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#features-section ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+#features-section li {
+    flex-basis: 300px;
+}
+
+#features-section img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+#features-section h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#features-section p {
+    font-size: 16px;
+    color: #777777;
+}
+
+/* Footer */
+footer {
+    background-color: #ffffff;
+    color: #777777;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li a {
+    color: #777777;
+    margin-right: 20px;
+    text-decoration: none;
+}
